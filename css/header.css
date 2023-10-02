@@ -1,0 +1,54 @@
+    /* Estilos comunes para la sección del encabezado */
+    .header {
+        background-image: url('../img/PORTADA\ WEBSITE.png');
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+
+
+    }
+
+    /* Estilo para el botón */
+    .header a.btn {
+        font-size: 18px; /* Tamaño de fuente del botón */
+        color: #dddcdc; /* Color del texto del botón */
+        background-color: rgb(53, 53, 53);
+        position: absolute;
+        text-align: center;
+        bottom: 10px;
+
+    }
+
+    /* Media query para tablet (hasta 950px de ancho) */
+    @media only screen and (max-width: 950px) {
+        /* Redimensiona el fondo */
+        .header {
+            height: 60vh;
+            background-size: contain;
+            object-fit: cover; /*dimensionado para llenar por completo su cuadro*/
+
+        }
+        .header a.btn {
+            bottom: 20px;
+        }
+    }
+
+     /* Media query para tablet (hasta 680px de ancho) */
+     @media only screen and (max-width: 568px) {
+        /* Redimensiona el fondo */
+        .header {
+            height: 50vh;
+            background-image: url('../img/PORTADA\ WEBSITE\ \(720\ x\ 500px\).png');
+            background-size: contain;
+            object-fit: cover; /*dimensionado para llenar por completo su cuadro*/
+        }
+        .header a.btn {
+            bottom: 20px;
+        }
+
+    }

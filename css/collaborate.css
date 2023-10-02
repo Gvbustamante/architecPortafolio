@@ -1,0 +1,27 @@
+    /* Estilo para centrar la sección y su contenido */
+    .collaborate-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px; /* Espaciado superior */
+    }
+
+    /* Estilo para el título */
+    .collaborate-section h2 {
+        font-size: 28px; /* Tamaño de fuente del título */
+        margin-bottom: 10px; /* Espaciado inferior del título */
+    }
+
+    /* Estilo para el párrafo */
+    .collaborate-section p {
+        font-size: 18px; /* Tamaño de fuente del párrafo */
+        margin-bottom: 20px; /* Espaciado inferior del párrafo */
+    }
+
+    /* Estilo para los botones */
+    .collaborate-section .btn {
+        font-size: 18px; /* Tamaño de fuente de los botones */
+        width: 200px; /* Ancho de los botones */
+        margin-top: 10px; /* Espaciado superior de los botones */
+    }
